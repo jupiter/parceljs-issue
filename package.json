@@ -1,0 +1,19 @@
+{
+  "name": "parceljs-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/entry.js --target node --bundle-node-modules --no-autoinstall --no-minify",
+    "test": "node dist/entry"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "graphql": "^0.13.2"
+  }
+}
